@@ -1,0 +1,8 @@
+<article *ngFor="let animal of animalsArray">
+    <div *ngIf="!animal.isFed">
+        <h2>{{animal.name}}</h2>
+        <p>Age: {{animal.age}}</p>
+        <p>Type: {{animal.type}}</p>
+        <p>Fed: {{animal.isFed}}</p>
+    </div>
+</article>
